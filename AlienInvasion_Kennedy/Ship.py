@@ -61,3 +61,4 @@ class Ship:
 
         BASE_DIR = Path(__file__).reslove().parent
         image_path = BASE_DIR / "images" / "custom_ship.png"
+        self.image = pygame.image.load(image_path)
