@@ -58,3 +58,6 @@ class Ship:
         """Center the ship on the left side of the screen."""
         self.rect.midleft = self.screen_rect.midleft
         self.y = float(self.rect.y)
+
+        BASE_DIR = Path(__file__).reslove().parent
+        image_path = BASE_DIR / "images" / "custom_ship.png"
